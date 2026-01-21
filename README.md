@@ -1,7 +1,7 @@
 # maven-omni-data-products
 Data synthesis and analysis tools for my MPhys project, using MAVEN daily magnetic field data and OMNI monthly solar wind data.
 
-📁legacy: old programs that I used to kick off my project and get started with MAVEN data
+/legacy: old programs that I used to kick off my project and get started with MAVEN data
 
   📄b_field_histogram: plots a histogram of the IMF magnitude and a 2D map of the field in the X-Y plane, at 1nT resolution
   
@@ -11,7 +11,7 @@ Data synthesis and analysis tools for my MPhys project, using MAVEN daily magnet
   
   📄MAVEN_orbit_plot_4proj: plots the orbital trajectory of MAVEN about Mars over one day, as a 4-panel plot showing the X-Y, Y-Z, X-Z and X-ρ projections
 
-📁lv0: programs that interact directly with the raw MAVEN (.cdf) or OMNI (.asc) data
+/lv0: programs that interact directly with the raw MAVEN (.cdf) or OMNI (.asc) data
 
   📄bow_shock_model: generates conic section model of the Martian bow shock and handles checks for MAVEN being in the solar wind
   
@@ -53,7 +53,7 @@ Data synthesis and analysis tools for my MPhys project, using MAVEN daily magnet
   
   📄data_scraping_bxby: generates a .csv containing a matrix of the IMF X- and Y-components at the L1 point, binned into 0.5nT intervals
 
-📁lv1: programs that interact with the summarised (.csv) data
+/lv1: programs that interact with the summarised (.csv) data
 
   📄angle_distribution: plots histograms of the IMF clock and cone angles
   
